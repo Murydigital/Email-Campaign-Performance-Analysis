@@ -35,13 +35,21 @@ Portfolio project demonstrating marketing analytics using simulated Salesforce M
 
 ---
 
-## 📈 Key Findings
+## 📈 ## 📈 Key Findings
 
-1. 🎯 **VIP Customers** delivered 2.4x higher revenue per email (£2.59) compared to other segments
-2. 📧 **Discount Offers** drove highest open rates (35.8%) and conversion rates (14.5%)
-3. 📅 **Tuesday sends** showed consistently strong performance across all metrics
-4. 💰 **Black Friday/Cyber Monday campaigns** generated £405,600 (32% of total revenue)
-5. ✅ **Engaged Customers** segment had lowest unsubscribe rate (0.20%)
+1. 🎯 **VIP Customers** delivered the highest engagement across all metrics:
+   - Open Rate: 36.0%
+   - CTR: 30.0%
+   - Revenue per email: £2.59
+   
+2. 📧 **All Subscribers** segment generated the most total revenue (£689,200) due to volume
+
+3. 💰 **Discount Offers** drove highest open rates (35.8%) and total revenue (£529,200)
+
+4. 📅 **Engaged Customers** represent the largest campaign volume (8 campaigns) with consistent 33% open rates
+
+5. ⚠️ **Inactive segment** shows re-engagement opportunity with only 20% open rate and £9,800 revenue
+
 
 ---
 
@@ -86,14 +94,15 @@ email-campaign-performance-analysis/
 
 ## 🔍 Analysis Highlights
 
-### Segment Performance
+### ### Segment Performance
 | Segment | Avg Open Rate | Avg CTR | Revenue/Email | Total Revenue |
 |---------|--------------|---------|---------------|---------------|
 | VIP Customers | 36.0% | 30.0% | £2.59 | £84,400 |
-| Engaged Customers | 35.0% | 25.0% | £1.85 | £665,300 |
-| All Subscribers | 25.0% | 25.0% | £1.08 | £505,200 |
-| New Subscribers | 25.0% | 20.0% | £0.76 | £24,100 |
+| All Subscribers | 31.0% | 24.0% | £1.46 | £689,200 |
+| Engaged Customers | 33.0% | 23.0% | £0.87 | £334,800 |
+| New Subscribers | 30.0% | 20.0% | £0.43 | £24,100 |
 | Inactive | 20.0% | 20.0% | £0.28 | £9,800 |
+
 
 ### Subject Line Effectiveness
 | Type | Avg Open Rate | Avg CTR | Total Revenue |
