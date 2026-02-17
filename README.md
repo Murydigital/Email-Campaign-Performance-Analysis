@@ -72,22 +72,29 @@ The dashboard includes:
 
 ```
 email-campaign-performance-analysis/
-├── README.md                                    # Project overview (this file)
+├── README.md # Project overview and quick findings
+├── EXECUTIVE_SUMMARY.md # Detailed analysis and strategic recommendations
+├── LICENSE # MIT License
 ├── data/
-│   ├── email_campaigns_data.csv                # Raw campaign data
-│   └── campaigns_analysed.csv                  # Processed data with calculated metrics
+│ ├── email_campaigns_data.csv # Raw campaign data
+│ └── campaigns_analysed.csv # Processed data with calculated metrics
 ├── excel/
-│   └── email_campaigns_analysis.xlsx           # Excel analysis with pivot tables
+│ ├── email_campaigns_analysis.xlsx # Excel analysis with pivot tables
+│ └── README.md # Guide to using Excel file
 ├── sql/
-│   └── campaign_analysis_queries.sql           # SQL queries for metrics and insights
+│ ├── campaign_analysis_queries.sql # SQL queries for metrics and insights
+│ └── README.md # SQL setup and query descriptions
 ├── python/
-│   ├── campaign_analysis.ipynb                 # Jupyter notebook with analysis
-│   └── campaign_analysis.html                  # HTML export of notebook
+│ ├── campaign_analysis.ipynb # Jupyter notebook with analysis
+│ ├── campaign_analysis.html # HTML export of notebook
+│ └── README.md # How to run Python analysis
 ├── visualisations/
-│   └── tableau_dashboard.png                   # Dashboard screenshot
+│ ├── tableau_dashboard.png # Dashboard screenshot
+│ └── README.md # Dashboard guide and features
 └── documentation/
-    ├── data_dictionary.md                      # Field definitions and metrics
-    └── project_methodology.md                  # Analysis approach and findings
+├── data_dictionary.md # Field definitions and metrics
+├── project_methodology.md # Analysis approach and findings
+└── README.md # Documentation index
 ```
 
 ## 📊 Key Findings Summary
