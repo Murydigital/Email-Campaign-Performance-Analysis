@@ -341,12 +341,14 @@ SELECT * FROM campaigns WHERE Conversions > Clicks;
 
 -- Check for negative Revenue
 SELECT * FROM campaigns WHERE Revenue < 0;
-`
 
-## 🔍 Sample Data Record
+----
+
+### 🔍 Sample Data Record
 Example: High-Performing Campaign
 
-```sql
+
+```
 Campaign_ID: CAMP_015
 Campaign_Name: Black Friday Mega Sale
 Segment: All Subscribers
@@ -366,11 +368,11 @@ Revenue_Per_Conversion: £143.25
 Month: Nov-2025
 Quarter: Q4-2025
 Day_of_Week: Thursday
-`
 
-----
 
-## 🔄 Data Source
+---
+
+### 🔄 Data Source
 Source System
 Platform: Salesforce Marketing Cloud (SFMC)
 
@@ -393,7 +395,7 @@ Analyse: Perform campaign performance analysis
 
 ---
 
-## 📚 Related Documentation
+### 📚 Related Documentation
 Analysis Methodology: project_methodology.md
 
 Executive Summary: EXECUTIVE_SUMMARY.md
@@ -406,9 +408,9 @@ Python Analysis: Python README
 
 Tableau Dashboard: Visualisations README
 
-----
+---
 
-## 📞 Questions or Issues?
+### 📞 Questions or Issues?
 If you encounter:
 
 Missing data → Check source export settings in SFMC
