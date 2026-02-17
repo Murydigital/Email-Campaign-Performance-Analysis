@@ -7,6 +7,21 @@
 
 ---
 
+## 📑 Table of Contents
+
+1. [Performance Overview](#-performance-overview)
+2. [Strategic Insights](#-strategic-insights)
+3. [Business Recommendations](#-business-recommendations)
+4. [Financial Projections](#-financial-projections)
+5. [Success Metrics & KPIs](#-success-metrics--kpis)
+6. [Implementation Roadmap](#-implementation-roadmap)
+7. [Methodology](#-methodology)
+8. [Supporting Documentation](#-supporting-documentation)
+
+---
+
+---
+
 ## 📈 Performance Overview
 
 ### Benchmark Comparison
@@ -45,7 +60,7 @@
 **Finding:** VIP customers show highest engagement and revenue per email but receive lowest campaign frequency.
 
 **Data:**
-- VIP Segment: £2.59 revenue per email (2.4x average of £1.08)
+- VIP Segment: £2.59 revenue per email (2.1x average of £1.21)
 - Open Rate: 36% (vs 31% average)
 - CTR: 30% (vs 24% average)
 - Campaign Frequency: Only 2 campaigns in 9 months
@@ -281,7 +296,7 @@ All findings are based on actual campaign data from Salesforce Marketing Cloud (
 
 - **Detailed Analysis:** See `/excel/email_campaigns_analysis.xlsx` for pivot tables
 - **SQL Queries:** See `/sql/campaign_analysis_queries.sql` for reproducible analysis
-- **Visual Dashboard:** See `/tableau/` for interactive visualizations
+- **Visual Dashboard:** See `/tableau/` for interactive visualisations
 - **Data Dictionary:** See `/documentation/data_dictionary.md` for field definitions
 - **Methodology:** See `/documentation/methodology.md` for analytical approach
 
@@ -292,9 +307,15 @@ All findings are based on actual campaign data from Salesforce Marketing Cloud (
 **Analyst:** Murydigital  
 **Project:** Email Campaign Performance Analysis  
 **Date:** February 2026  
-**LinkedIn:** [Your Profile]  
-**Portfolio:** [Your Website]
+**GitHub:** [github.com/murydigital](https://github.com/murydigital)  
+**LinkedIn:** [linkedin.com/in/yourprofile](https://www.linkedin.com/in/yourprofile)  
+**Portfolio:** [yourportfolio.com](https://yourportfolio.com)
 
 ---
 
-*This executive summary demonstrates data analysis, business intelligence, and strategic thinking capabilities applicable to Marketing Analytics, CRM Analytics, and Email Marketing Optimization roles.*
+**Questions or feedback?** Feel free to reach out via LinkedIn or open an issue on GitHub.
+
+
+---
+
+*This executive summary demonstrates data analysis, business intelligence, and strategic thinking capabilities applicable to Marketing Analytics, CRM Analytics, and Email Marketing Optimisation roles.*
