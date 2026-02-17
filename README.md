@@ -35,7 +35,7 @@ Portfolio project demonstrating marketing analytics using simulated Salesforce M
 
 ---
 
-## 📈 ## 📈 Key Findings
+## 📈 Key Findings
 
 1. 🎯 **VIP Customers** delivered the highest engagement across all metrics:
    - Open Rate: 36.0%
@@ -94,7 +94,7 @@ email-campaign-performance-analysis/
 
 ## 🔍 Analysis Highlights
 
-### ### Segment Performance
+### Segment Performance
 | Segment | Avg Open Rate | Avg CTR | Revenue/Email | Total Revenue |
 |---------|--------------|---------|---------------|---------------|
 | VIP Customers | 36.0% | 30.0% | £2.59 | £84,400 |
@@ -194,7 +194,7 @@ Digital Marketing, Marketing Automation & Data Analytics
 
 ## 📝 About This Project
 
-This portfolio project was created using simulated data that reflects real-world Salesforce Marketing Cloud campaign structures, metrics, and reporting requirements based on my professional experience as a Marketing Cloud Administrator.
+This portfolio project was created using simulated data that reflects real-world Salesforce Marketing Cloud campaign structures, metrics, and reporting requirements, informed by my professional experience as a Marketing Cloud Administrator.
 
 The analysis demonstrates practical application of data analytics tools to solve common marketing challenges: understanding campaign performance, identifying high-value segments, optimising engagement strategies, and providing actionable business recommendations.
 
