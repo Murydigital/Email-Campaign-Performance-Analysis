@@ -90,6 +90,29 @@ email-campaign-performance-analysis/
     └── project_methodology.md                  # Analysis approach and findings
 ```
 
+## 📊 Key Findings Summary
+
+Our email campaign analysis across 20 campaigns (947,000 emails, £1.14M revenue) reveals:
+
+### Performance Highlights
+- **31% average open rate** (41% above industry benchmark of 22%)
+- **24% average CTR** (20% above industry benchmark of 20%)
+- **9% conversion rate** (29% above industry benchmark of 7%)
+- **£1.21 revenue per email sent** (42% above industry average)
+
+### Top 3 Insights
+1. **Q4 Revenue Dominance:** Oct-Dec generates 54% of annual revenue from 40% of campaigns
+2. **VIP Segment Performance:** VIP customers deliver £2.59 per email (2.4x average) but only received 2 campaigns
+3. **Subject Line Impact:** "Discount Offer" subject lines generated £529,200 (46% of total revenue)
+
+### Strategic Recommendations
+- Increase Q4 campaign budget by 30%
+- Launch monthly VIP exclusive campaigns (+£156K projected annual revenue)
+- Optimize win-back campaigns (currently 20% open rate vs 30% target)
+
+**[📄 View Full Executive Summary →](EXECUTIVE_SUMMARY.md)** for detailed analysis, ROI projections, and implementation roadmap.
+
+
 ---
 
 ## 🔍 Analysis Highlights
