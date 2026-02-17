@@ -322,6 +322,8 @@ This document provides comprehensive definitions for all data fields used in the
 | CTR | 0-100% | (Clicks/Opens) × 100 |
 | Conversion_Rate | 0-100% | (Conversions/Clicks) × 100 |
 
+----
+
 ### Data Quality Checks
 
 ```sql
@@ -339,9 +341,12 @@ SELECT * FROM campaigns WHERE Conversions > Clicks;
 
 -- Check for negative Revenue
 SELECT * FROM campaigns WHERE Revenue < 0;
+`
 
----
+## 🔍 Sample Data Record
+Example: High-Performing Campaign
 
+```sql
 Campaign_ID: CAMP_015
 Campaign_Name: Black Friday Mega Sale
 Segment: All Subscribers
@@ -361,53 +366,63 @@ Revenue_Per_Conversion: £143.25
 Month: Nov-2025
 Quarter: Q4-2025
 Day_of_Week: Thursday
+`
 
----
-
----
+----
 
 ## 🔄 Data Source
+Source System
+Platform: Salesforce Marketing Cloud (SFMC)
 
-### Source System
-- **Platform:** Salesforce Marketing Cloud (SFMC)
-- **Module:** Email Studio
-- **Export Method:** Manual CSV export
-- **Frequency:** Post-campaign completion (7-day attribution window)
+Module: Email Studio
 
-### Data Pipeline
-1. **Extract:** Export from SFMC Email Studio (Tracking tab)
-2. **Transform:** Calculate derived metrics in Excel/SQL
-3. **Load:** Import to analysis tools (Excel, SQL, Python, Tableau)
-4. **Validate:** Run data quality checks
-5. **Analyze:** Perform campaign performance analysis
+Export Method: Manual CSV export
+
+Frequency: Post-campaign completion (7-day attribution window)
+
+Data Pipeline
+Extract: Export from SFMC Email Studio (Tracking tab)
+
+Transform: Calculate derived metrics in Excel/SQL
+
+Load: Import to analysis tools (Excel, SQL, Python, Tableau)
+
+Validate: Run data quality checks
+
+Analyse: Perform campaign performance analysis
 
 ---
 
 ## 📚 Related Documentation
+Analysis Methodology: project_methodology.md
 
-- **Analysis Methodology:** [project_methodology.md](project_methodology.md)
-- **Executive Summary:** [EXECUTIVE_SUMMARY.md](/EXECUTIVE_SUMMARY.md)
-- **Excel Analysis:** [Excel README](/excel/README.md)
-- **SQL Queries:** [SQL README](/sql/README.md)
-- **Python Analysis:** [Python README](/python/README.md)
-- **Tableau Dashboard:** [Visualisations README](/visualisations/README.md)
+Executive Summary: EXECUTIVE_SUMMARY.md
 
----
+Excel Analysis: Excel README
+
+SQL Queries: SQL README
+
+Python Analysis: Python README
+
+Tableau Dashboard: Visualisations README
+
+----
 
 ## 📞 Questions or Issues?
-
 If you encounter:
-- **Missing data** → Check source export settings in SFMC
-- **Validation errors** → Review validation rules section above
-- **Calculation discrepancies** → Verify formula implementation
-- **Data type issues** → Check field definitions and formats
 
-**Need help?** Open an issue on GitHub or contact via LinkedIn.
+Missing data → Check source export settings in SFMC
 
----
+Validation errors → Review validation rules section above
 
-**Last Updated:** February 2026  
-**Data Period:** February 2025 - December 2025  
-**Total Records:** 20 campaigns  
-**Maintained by:** Murydigital
+Calculation discrepancies → Verify formula implementation
+
+Data type issues → Check field definitions and formats
+
+Need help? Open an issue on GitHub or contact via LinkedIn.
+
+Last Updated: February 2026
+Data Period: February 2025 - December 2025
+Total Records: 20 campaigns
+Maintained by: Murydigital
 
