@@ -341,7 +341,7 @@ SELECT * FROM campaigns WHERE Conversions > Clicks;
 
 -- Check for negative Revenue
 SELECT * FROM campaigns WHERE Revenue < 0;
-
+`
 ----
 
 ### 🔍 Sample Data Record
@@ -349,6 +349,7 @@ Example: High-Performing Campaign
 
 ---
 
+```
 Campaign_ID: CAMP_015
 Campaign_Name: Black Friday Mega Sale
 Segment: All Subscribers
@@ -368,7 +369,7 @@ Revenue_Per_Conversion: £143.25
 Month: Nov-2025
 Quarter: Q4-2025
 Day_of_Week: Thursday
-
+`
 
 ---
 
