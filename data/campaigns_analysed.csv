@@ -1,0 +1,21 @@
+Campaign_ID,Campaign_Name,Send_Date,Day_of_Week,Segment,Subject_Line_Type,Emails_Sent,Opens,Clicks,Bounces,Unsubscribes,Conversions,Revenue,Open_Rate,CTR,Click_to_Open,Conversion_Rate,Revenue_Per_Email,Revenue_Per_Conversion,Month
+CAMP_001,Summer Sale Launch,05/08/2025,Tuesday,Engaged Customers,Discount Offer,45000,13500,3375,450,90,338,33800,30%,25%,8%,10%,£0.75,£100.00,May-2025
+CAMP_002,Product Newsletter,12/08/2025,Tuesday,New Subscribers,Educational,25000,6250,1250,250,50,94,9400,25%,20%,5%,8%,£0.38,£100.00,Dec-2025
+CAMP_003,Flash Sale 24hrs,19/08/2025,Tuesday,VIP Customers,Urgency,15000,5250,1575,150,30,189,37800,35%,30%,11%,12%,£2.52,£200.00,Aug-2025
+CAMP_004,Welcome Series,26/08/2025,Tuesday,New Subscribers,Welcome,30000,10500,2100,300,60,147,14700,35%,20%,7%,7%,£0.49,£100.00,Aug-2025
+CAMP_005,Weekend Special,02/09/2025,Tuesday,Engaged Customers,Discount Offer,40000,11200,2800,400,80,280,28000,28%,25%,7%,10%,£0.70,£100.00,Feb-2025
+CAMP_006,Product Launch,09/09/2025,Tuesday,All Subscribers,Product Announcement,60000,15000,3000,600,120,240,48000,25%,20%,5%,8%,£0.80,£200.00,Sep-2025
+CAMP_007,Re-engagement,16/09/2025,Tuesday,Inactive,Win-back,35000,7000,1400,350,175,98,9800,20%,20%,4%,7%,£0.28,£100.00,Sep-2025
+CAMP_008,Monthly Tips,23/09/2025,Tuesday,Engaged Customers,Educational,42000,14700,2940,420,84,206,20600,35%,20%,7%,7%,£0.49,£100.00,Sep-2025
+CAMP_009,VIP Exclusive,30/09/2025,Tuesday,VIP Customers,Exclusive Offer,18000,6480,1944,180,36,233,46600,36%,30%,11%,12%,£2.59,£200.00,Sep-2025
+CAMP_010,Fall Collection,07/10/2025,Tuesday,Engaged Customers,Product Announcement,48000,14400,3600,480,96,324,64800,30%,25%,8%,9%,£1.35,£200.00,Jul-2025
+CAMP_011,Flash Friday,14/10/2025,Tuesday,All Subscribers,Urgency,55000,13750,3438,550,110,275,55000,25%,25%,6%,8%,£1.00,£200.00,Oct-2025
+CAMP_012,Customer Stories,21/10/2025,Tuesday,Engaged Customers,Educational,38000,13300,2660,380,76,186,18600,35%,20%,7%,7%,£0.49,£100.00,Oct-2025
+CAMP_013,Halloween Sale,28/10/2025,Tuesday,All Subscribers,Discount Offer,62000,18600,4650,620,124,465,93000,30%,25%,8%,10%,£1.50,£200.00,Oct-2025
+CAMP_014,November Newsletter,04/11/2025,Tuesday,Engaged Customers,Educational,44000,15400,3080,440,88,216,21600,35%,20%,7%,7%,£0.49,£100.00,Apr-2025
+CAMP_015,Black Friday Preview,11/11/2025,Tuesday,All Subscribers,Urgency,70000,24500,6125,700,140,613,122600,35%,25%,9%,10%,£1.75,£200.00,Nov-2025
+CAMP_016,Black Friday,25/11/2025,Tuesday,All Subscribers,Discount Offer,75000,26250,6563,750,150,722,144400,35%,25%,9%,11%,£1.93,£200.00,Nov-2025
+CAMP_017,Cyber Monday,02/12/2025,Tuesday,All Subscribers,Discount Offer,72000,25200,6300,720,144,693,138600,35%,25%,9%,11%,£1.93,£200.00,Feb-2025
+CAMP_018,Holiday Gift Guide,09/12/2025,Tuesday,Engaged Customers,Educational,50000,17500,3500,500,100,280,56000,35%,20%,7%,8%,£1.12,£200.00,Sep-2025
+CAMP_019,Last Minute Gifts,16/12/2025,Tuesday,All Subscribers,Urgency,65000,19500,4875,650,130,438,87600,30%,25%,8%,9%,£1.35,£200.00,Dec-2025
+CAMP_020,Year End Sale,30/12/2025,Tuesday,Engaged Customers,Discount Offer,58000,20300,5075,580,116,457,91400,35%,25%,9%,9%,£1.58,£200.00,Dec-2025
