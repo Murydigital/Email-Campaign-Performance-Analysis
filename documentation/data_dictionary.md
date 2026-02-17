@@ -385,12 +385,12 @@ Day_of_Week: Thursday
 
 ## 📚 Related Documentation
 
-- **Analysis Methodology:** [`project_methodology.md`](project_methodology.md)
-- **Executive Summary:** [`/EXECUTIVE_SUMMARY.md`](/EXECUTIVE_SUMMARY.md)
-- **Excel Analysis:** [`/excel/README.md`](/excel/README.md)
-- **SQL Queries:** [`/sql/README.md`](/sql/README.md)
-- **Python Analysis:** [`/python/README.md`](/python/README.md)
-- **Tableau Dashboard:** [`/visualisations/README.md`](/visualisations/README.md)
+- **Analysis Methodology:** [project_methodology.md](project_methodology.md)
+- **Executive Summary:** [EXECUTIVE_SUMMARY.md](/EXECUTIVE_SUMMARY.md)
+- **Excel Analysis:** [Excel README](/excel/README.md)
+- **SQL Queries:** [SQL README](/sql/README.md)
+- **Python Analysis:** [Python README](/python/README.md)
+- **Tableau Dashboard:** [Visualisations README](/visualisations/README.md)
 
 ---
 
