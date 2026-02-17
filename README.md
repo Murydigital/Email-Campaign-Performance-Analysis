@@ -50,6 +50,7 @@ Portfolio project demonstrating marketing analytics using simulated Salesforce M
 
 5. ⚠️ **Inactive segment** shows re-engagement opportunity with only 20% open rate and £9,800 revenue
 
+**[📄 View Full Executive Summary →](EXECUTIVE_SUMMARY.md)** for detailed analysis, ROI projections, and implementation roadmap.
 
 ---
 
