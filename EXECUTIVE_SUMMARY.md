@@ -1,321 +1,169 @@
-# Executive Summary: Email Campaign Performance Analysis
+# 📋 Executive Summary — Email Campaign Performance Analysis
 
-**Analysis Period:** February - December 2025  
-**Dataset:** 20 campaigns | 947,000 emails sent | £1,142,300 revenue  
-**Analyst:** Murydigital  
-**Date:** February 2026
-
----
-
-## 📑 Table of Contents
-
-1. [Performance Overview](#-performance-overview)
-2. [Strategic Insights](#-strategic-insights)
-3. [Business Recommendations](#-business-recommendations)
-4. [Financial Projections](#-financial-projections)
-5. [Success Metrics & KPIs](#-success-metrics--kpis)
-6. [Implementation Roadmap](#-implementation-roadmap)
-7. [Methodology](#-methodology)
-8. [Supporting Documentation](#-supporting-documentation)
+**Period:** May – December 2025  
+**Campaigns Analysed:** 20  
+**Total Emails Sent:** 947,000  
+**Total Revenue:** £1,142,300  
 
 ---
 
----
+## 1. Overview
 
-## 📈 Performance Overview
+This analysis evaluates 20 email marketing campaigns executed between May and December 2025 for a retail brand. The campaigns targeted five audience segments using seven subject line strategies and generated £1,142,300 in total revenue from 947,000 emails sent.
 
-### Benchmark Comparison
-
-| Metric | Our Performance | Industry Average | Variance |
-|--------|----------------|------------------|----------|
-| Open Rate | 31% | 22% | **+41% ↑** |
-| Click-Through Rate | 24% | 20% | **+20% ↑** |
-| Conversion Rate | 9% | 7% | **+29% ↑** |
-| Revenue Per Email | £1.21 | £0.85 | **+42% ↑** |
-
-**Executive Summary:** All key performance indicators exceed industry benchmarks, demonstrating strong campaign execution, quality audience segmentation, and effective email creative strategy.
+The goal of this project is to demonstrate a full analytics pipeline—Excel, MySQL, Python, and Tableau—and to surface actionable insights to improve future email campaign performance.
 
 ---
 
-## 🎯 Strategic Insights
+## 2. Overall Performance
 
-### 1. Seasonal Revenue Concentration
+| KPI | Value | Comment |
+|---|---|---|
+| Total Revenue | **£1,142,300** | Across all 20 campaigns |
+| Total Emails Sent | **947,000** | May–Dec 2025 |
+| Average Open Rate | **31%** | Above typical industry benchmarks (~21–25%) |
+| Average CTR | **24%** | Strong click‑through across all segments |
+| Average Conversion Rate | **9%** | Healthy end‑to‑end performance |
+| Revenue Per Email | **£1.17** | Across all campaigns and segments |
+| Best Revenue Per Email | **£2.59** | VIP Customers segment |
 
-**Finding:** Q4 (Oct-Dec) generates 54% of annual revenue despite representing only 40% of campaign sends.
-
-**Data:**
-- October: £166,600 (3 campaigns)
-- November: £267,000 (2 campaigns) - Peak month
-- December: £188,400 (3 campaigns)
-- Q4 Total: £622,000 from 8 campaigns
-
-**Business Impact:** Holiday shopping season (Black Friday, Cyber Monday, Year-End Sales) is critical revenue driver.
-
-**Recommendation:** Increase Q4 budget allocation by 30% (+4 campaigns) for projected +£180,000 revenue.
+Overall, the email programme is performing strongly, with engagement and conversion levels that would be considered high in most retail contexts.
 
 ---
 
-### 2. VIP Segment Underutilization
+## 3. Top Performing Campaigns
 
-**Finding:** VIP customers show highest engagement and revenue per email but receive lowest campaign frequency.
+| Rank | Campaign | Date | Segment | Subject Line Type | Revenue | Open Rate | CTR | Conversion Rate |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Black Friday | 2025‑11‑25 | All Subscribers | Discount Offer | **£144,400** | 35% | 25% | 11% |
+| 2 | Cyber Monday | 2025‑12‑02 | All Subscribers | Discount Offer | **£138,600** | 35% | 25% | 11% |
+| 3 | Black Friday Preview | 2025‑11‑11 | All Subscribers | Urgency | **£122,600** | 35% | 25% | 10% |
+| 4 | Halloween Sale | 2025‑10‑28 | All Subscribers | Discount Offer | **£93,000** | 30% | 25% | 10% |
+| 5 | Year End Sale | 2025‑12‑30 | Engaged Customers | Discount Offer | **£91,400** | 35% | 25% | 9% |
 
-**Data:**
-- VIP Segment: £2.59 revenue per email (2.1x average of £1.21)
-- Open Rate: 36% (vs 31% average)
-- CTR: 30% (vs 24% average)
-- Campaign Frequency: Only 2 campaigns in 9 months
+**Lowest performing campaign:** Product Newsletter (Dec‑2025, Educational, New Subscribers) with **£9,400 revenue**, lower volume, and mid‑tier engagement.
 
-**Business Impact:** £156,000 potential annual revenue left on table.
-
-**Recommendation:** Launch monthly VIP exclusive campaigns (10 additional campaigns/year) with early access and premium offers.
-
----
-
-### 3. Subject Line Performance Variance
-
-**Finding:** Subject line type directly correlates with both engagement and revenue, showing 80% variance between best and worst performers.
-
-**Data by Subject Line Type:**
-
-| Type | Open Rate | Total Revenue | Campaigns |
-|------|-----------|---------------|-----------|
-| Exclusive Offer | 36% | £46,600 | 1 |
-| Discount Offer | 32% | £529,200 | 6 |
-| Urgency | 31% | £303,000 | 4 |
-| Win-back | 20% | £9,800 | 1 |
-
-**Business Impact:** Subject line optimization can improve campaign performance by 15-20%.
-
-**Recommendation:** 
-- Expand "Exclusive Offer" testing (currently 1 campaign)
-- Optimize "Win-back" campaigns (50% below target 30% open rate)
-- Implement A/B testing for all campaigns
+**Key takeaway:** A small set of high‑impact promotional events (Black Friday, Cyber Monday, Halloween, Year-End Sale) account for a disproportionate share of revenue and should be treated as “hero” campaigns in future planning.
 
 ---
 
-### 4. List Size Optimization Opportunity
+## 4. Monthly Revenue Trends
 
-**Finding:** Segment size impacts engagement - medium lists (40k-60k) outperform large lists (60k+) by 10%.
+| Month | Campaigns | Emails Sent | Revenue | Share of Total |
+|---|---|---|---|---|
+| May‑2025 | 1 | 45,000 | £33,800 | 3% |
+| Aug‑2025 | 2 | 45,000 | £52,500 | 5% |
+| Sep‑2025 | 5 | 195,000 | £153,000 | 13% |
+| Oct‑2025 | 4 | 203,000 | £231,400 | 20% |
+| Nov‑2025 | 3 | 189,000 | £267,000 | 23% |
+| Dec‑2025 | 5 | 270,000 | £383,000 | 34% |
+| **Total** | **20** | **947,000** | **£1,142,300** | **100%** |
 
-**Data:**
-- Small Lists (<40k): £0.65/email, 28% open rate
-- Medium Lists (40k-60k): £1.35/email, 32% open rate ⭐ Optimal
-- Large Lists (60k+): £1.22/email, 31% open rate (list fatigue evident)
+- **Q4 (Oct–Dec)** generates **£881,400 (77% of total revenue)** from 12 campaigns.  
+- **December** is the single biggest month at **£383,000**, driven by Cyber Monday, Holiday Gift Guide, Last Minute Gifts, and Year-End Sale.  
+- **May–August** contribute just **8%** of total revenue, indicating under‑utilised opportunities in the first half of the period.
 
-**Business Impact:** £90,000 potential revenue gain from segmentation.
-
-**Recommendation:** Split all 60k+ segments into 2-3 targeted groups of 40k-60k each.
-
----
-
-### 5. Day-of-Week Send Strategy
-
-**Finding:** All 20 campaigns sent on Tuesday showing consistent 31% open rate.
-
-**Data:**
-- Tuesday: 100% of sends, 31% open rate, £1.21/email
-- Other days: Not tested
-
-**Business Impact:** Potential 2-3% engagement lift from send time optimization.
-
-**Recommendation:** A/B test Wednesday and Thursday sends with 10% of volume to identify optimization opportunities.
+**Implication:** The programme is heavily weighted towards peak retail periods. There is a clear upside to building a stronger H1 calendar while protecting Q4 performance.
 
 ---
 
-## 💡 Business Recommendations
+## 5. Segment Performance
 
-### Immediate Actions (Next 30 Days)
+| Segment | Campaigns | Emails Sent | Revenue | Open Rate | CTR | Conversion Rate | Revenue / Email |
+|---|---|---|---|---|---|---|---|
+| VIP Customers | 2 | 33,000 | £84,400 | **36%** | 30% | 12% | **£2.59** |
+| Engaged Customers | 8 | 343,000 | £334,800 | 33% | 23% | 8% | £0.98 |
+| All Subscribers | 7 | 623,000 | £689,200 | 31% | 24% | 10% | £1.11 |
+| New Subscribers | 2 | 80,000 | £24,100 | 30% | 20% | 7% | £0.49 |
+| Inactive | 1 | 28,000 | £9,800 | 20% | 20% | 7% | £0.28 |
 
-#### 1. Launch VIP Monthly Campaign Series
-- **Objective:** Increase VIP segment revenue by £156,000 annually
-- **Tactic:** Monthly exclusive early-access campaigns with premium offers
-- **Investment:** £10,000 (creative production)
-- **Projected ROI:** 1,460%
+**Insights:**
 
-#### 2. Optimize Win-Back Campaign Strategy
-- **Objective:** Improve inactive subscriber open rate from 20% to 30%
-- **Tactic:** A/B test 5 new subject line approaches (urgency, discount, curiosity, value, FOMO)
-- **Investment:** £5,000 (testing and analysis)
-- **Projected Revenue Lift:** +£25,000
-
-#### 3. Segment Large Lists
-- **Objective:** Improve engagement for 60k+ email segments
-- **Tactic:** Analyze and split into 2-3 targeted groups based on engagement history, purchase behavior, demographics
-- **Investment:** £8,000 (data analysis)
-- **Projected Revenue Lift:** +£90,000
+- **VIP Customers** are the most valuable segment with **3.4× higher revenue per email** than Inactive subscribers and more than **2×** the overall average.
+- **All Subscribers** generates the **largest share of total revenue (£689,200)** due to high volume Q4 sends.
+- **Inactive** and **New Subscribers** segments lag significantly on both engagement and revenue efficiency, indicating a need for more tailored journeys or re‑allocation of volume.
 
 ---
 
-### Mid-Term Strategy (3-6 Months)
+## 6. Subject Line Strategy Performance
 
-#### 4. Expand Q4 Holiday Campaign Calendar
-- **Current State:** 8 campaigns Oct-Dec
-- **Target:** 12 campaigns (50% increase)
-- **Focus Areas:** 
-  - Pre-Black Friday teasers (2 campaigns)
-  - Extended Cyber Week (2 campaigns)
-  - Gift guide series (2 campaigns)
-- **Investment:** £15,000 (production)
-- **Projected Revenue Lift:** +£180,000
+| Subject Line Type | Campaigns | Revenue | Open Rate | CTR | Conversion Rate |
+|---|---|---|---|---|---|
+| Discount Offer | 6 | **£529,200** | 32% | 25% | 10% |
+| Urgency | 4 | **£303,000** | 31% | **26%** | 10% |
+| Educational | 5 | £126,200 | 33% | 20% | 7% |
+| Product Announcement | 2 | £112,800 | 28% | 23% | 8% |
+| Exclusive Offer | 1 | £46,600 | **36%** | 30% | **12%** |
+| Welcome | 1 | £14,700 | 35% | 20% | 7% |
+| Win‑back | 1 | £9,800 | 20% | 20% | 7% |
 
-#### 5. Create Campaign Template Library
-- **Objective:** Replicate top-5 performer success patterns
-- **Deliverable:** 5 templates (Holiday Discount, Urgency Flash Sale, VIP Exclusive, Educational Value, Product Launch)
-- **Investment:** £12,000 (development)
-- **Projected Impact:** +15% average campaign revenue (+£140,000)
+**Insights:**
 
-#### 6. Implement Advanced Segmentation
-- **Tactic:** Move from 5 segments to 12 micro-segments based on:
-  - Purchase frequency
-  - Average order value
-  - Category preferences
-  - Engagement level
-- **Investment:** £20,000 (CRM enhancement)
-- **Projected Impact:** +12% overall campaign performance
+- **Discount Offer** subject lines drive the most revenue (**£529,200**, 46% of total), confirming the power of clear monetary value propositions.
+- **Urgency** subject lines produce the highest **click‑through rate (26%)**, suggesting strong effectiveness at driving traffic when time pressure is emphasised.
+- The **Exclusive Offer** campaign (VIP only) records the **highest open rate (36%) and conversion rate (12%)**, reinforcing the value of exclusivity for high‑value segments.
+- **Win‑back** underperforms across all metrics and needs re‑design if it is to justify continued send volume.
 
 ---
 
-### Long-Term Growth (6-12 Months)
+## 7. Strategic Recommendations
 
-#### 7. Build Predictive Campaign Model
-- **Objective:** Predict campaign revenue within 10% accuracy
-- **Methodology:** Machine learning model using 50+ features
-- **Investment:** £35,000 (data science resources)
-- **Projected Impact:** Optimize resource allocation, reduce low-performing campaigns by 60%
+### 7.1 Expand VIP Programme
 
-#### 8. Personalization Engine
-- **Objective:** Dynamic subject lines and content based on subscriber behavior
-- **Technology:** AI-powered content optimization
-- **Investment:** £50,000 (platform + implementation)
-- **Projected Impact:** +20% engagement, +18% revenue per email
-
-#### 9. Multi-Channel Integration
-- **Objective:** Coordinate email with SMS, push, and social
-- **Tactic:** Unified campaign orchestration
-- **Investment:** £45,000 (platform integration)
-- **Projected Impact:** +25% overall marketing ROI
+- **Why:** VIP Customers deliver £2.59 per email, far above the overall average (£1.17).  
+- **Action:** Increase VIP‑focused campaigns from **2 to 4–6 per year**, combining Exclusive Offer + Discount Offer subject lines.  
+- **Impact:** A conservative 25–40% lift in VIP volume at current efficiency could drive **£50,000–£80,000 additional annual revenue**.
 
 ---
 
-## 📊 Financial Projections
+### 7.2 Build Pre‑Q4 Engagement Runway
 
-### Current Baseline (9 Months, 20 Campaigns)
-- **Revenue:** £1,142,300
-- **Revenue Per Email:** £1.21
-- **Revenue Per Campaign:** £57,115
-
-### Year 1 Projections (With Immediate + Mid-Term Recommendations)
-
-| Initiative | Revenue Impact | Investment | ROI | Timeline |
-|-----------|---------------|-----------|-----|----------|
-| VIP Monthly Campaigns | +£156,000 | £10,000 | 1,460% | 3 months |
-| Q4 Expansion | +£180,000 | £15,000 | 1,100% | 6 months |
-| List Segmentation | +£90,000 | £8,000 | 1,025% | 2 months |
-| Win-Back Optimization | +£25,000 | £5,000 | 400% | 1 month |
-| Template Library | +£140,000 | £12,000 | 1,067% | 4 months |
-| **TOTAL YEAR 1** | **+£591,000** | **£50,000** | **1,082%** | **12 months** |
-
-### Year 1 Projected Performance
-- **Total Revenue:** £1,733,300 (+52% vs baseline)
-- **Revenue Per Email:** £1.45 (+20%)
-- **Campaign Count:** 35 campaigns (+75%)
-
-### Year 2 Projections (Adding Long-Term Initiatives)
-- **Total Revenue:** £2,180,000 (+26% YoY, +91% vs baseline)
-- **Revenue Per Email:** £1.65 (+14% YoY)
-- **Campaign Count:** 48 campaigns (+37% YoY)
+- **Why:** May–August campaigns currently account for only 8% of revenue. Audience engagement before Q4 can be strengthened.  
+- **Action:** Add **2–3 additional campaigns** in June and July focused on Educational and Product Announcement content to warm segments ahead of peak season.  
+- **Impact:** Even modest performance at current benchmarks could add **10–15%** to annual revenue while improving Q4 responsiveness.
 
 ---
 
-## 🎯 Success Metrics & KPIs
+### 7.3 Replicate the Black Friday Sequence
 
-### Primary Metrics (Track Monthly)
-- Revenue Per Email: £1.21 → £1.45 target (+20%)
-- Open Rate: Maintain >30%
-- Conversion Rate: Maintain >9%
-- Total Revenue: £1.14M → £1.73M target (+52%)
-
-### Segment-Level Metrics
-- VIP Revenue Contribution: 8% → 20% target
-- All Subscribers Engagement: 32% open rate (maintain)
-- Inactive Reactivation Rate: 20% → 30% target
-
-### Campaign-Level Metrics
-- High-Value Campaigns (£100k+): 15% → 25% of campaigns
-- Subject Line A/B Test Win Rate: Track weekly
-- Q4 Revenue Concentration: 54% → 50% (diversify)
-
-### Operational Metrics
-- Campaign Production Time: Track baseline → optimize by 20%
-- Template Reuse Rate: 0% → 60% target
-- Segmentation Accuracy: Define baseline → improve by 15%
+- **Why:** The **Black Friday Preview → Black Friday → Cyber Monday** sequence generated **£405,600 (35% of all revenue)** from just 3 campaigns.  
+- **Action:** Treat this as a repeatable playbook—build similar **Preview + Main + Follow‑up** flows for other major sales such as Summer Sale, Halloween, and Year-End Sale.  
+- **Impact:** Applying the same structure to two additional events could deliver significant incremental revenue without increasing list size.
 
 ---
 
-## 📅 Implementation Roadmap
+### 7.4 Optimise Subject Line Strategy
 
-### Month 1: Quick Wins
-- Week 1: Present findings to leadership, secure budget
-- Week 2: Launch VIP exclusive campaign planning
-- Week 3: Begin win-back A/B testing
-- Week 4: Start large list segmentation analysis
-
-### Month 2-3: Foundation Building
-- Launch first 2 VIP monthly campaigns
-- Complete list segmentation implementation
-- Analyze win-back test results, implement winners
-- Plan Q4 expanded calendar
-
-### Month 4-6: Scaling
-- Execute enhanced Q4 campaign schedule
-- Deploy campaign template library
-- Launch advanced segmentation
-- Measure and optimize ongoing initiatives
-
-### Month 7-12: Optimization & Growth
-- Refine all initiatives based on performance data
-- Begin long-term projects (predictive modeling, personalization)
-- Achieve Year 1 revenue targets
-- Plan Year 2 strategic initiatives
+- **Why:** Discount Offer and Urgency consistently outperform other types on revenue and CTR.  
+- **Action:**  
+  - Prioritise **Discount Offer** as the default for revenue‑driving campaigns.  
+  - Layer in **Urgency** wording (e.g. “Ends tonight”, “24 hours only”) to maximise clicks.  
+  - Use A/B tests comparing **Discount vs Discount+Urgency** to quantify uplift.  
+- **Impact:** Even small CTR and conversion uplifts on large All Subscribers sends can translate into **tens of thousands of pounds**.
 
 ---
 
-## 🔍 Methodology
+### 7.5 Re‑Design Win‑Back Strategy
 
-This analysis combines insights from:
-- **Excel:** Pivot table analysis of campaign performance, segmentation, and trends
-- **SQL:** 10 analytical queries covering funnel analysis, cohort performance, and optimization opportunities
-- **Tableau:** Interactive dashboard visualizing KPIs, trends, and segment comparisons
-- **Python:** Statistical analysis, correlation studies, and predictive modeling (if applicable)
-
-All findings are based on actual campaign data from Salesforce Marketing Cloud (Feb-Dec 2025).
+- **Why:** The Re‑engagement (Win‑back) campaign to Inactive subscribers generated only **£9,800** with a **20% open rate**.  
+- **Action:**  
+  - Test multi‑step journeys (e.g. 3‑email series) with stronger offers and clearer value.  
+  - Tighten targeting to “recently inactive” rather than long‑dormant contacts.  
+  - Set clear ROI thresholds; if not met, reduce send volume to Inactive and re‑invest in higher‑performing segments.  
 
 ---
 
-## 📚 Supporting Documentation
+## 8. Conclusion
 
-- **Detailed Analysis:** See `/excel/email_campaigns_analysis.xlsx` for pivot tables
-- **SQL Queries:** See `/sql/campaign_analysis_queries.sql` for reproducible analysis
-- **Visual Dashboard:** See `/tableau/` for interactive visualisations
-- **Data Dictionary:** See `/documentation/data_dictionary.md` for field definitions
-- **Methodology:** See `/documentation/methodology.md` for analytical approach
+The email programme is already delivering strong results, with high engagement and a clear ability to monetise promotional events—especially during Q4. The largest opportunities now lie in:
 
----
+- Scaling the **most efficient segment** (VIP Customers)  
+- Extending the **campaign calendar** into under‑used months  
+- Systematically applying the **Black Friday sequence model** to other events  
+- Refining **subject line and win‑back strategies** through iterative testing  
 
-## 👤 Contact
-
-**Analyst:** Murydigital  
-**Project:** Email Campaign Performance Analysis  
-**Date:** February 2026  
-**GitHub:** [github.com/murydigital](https://github.com/murydigital)  
-**LinkedIn:** [linkedin.com/in/yourprofile](https://www.linkedin.com/in/yourprofile)  
-**Portfolio:** [yourportfolio.com](https://yourportfolio.com)
+By implementing these recommendations, the business can realistically target a 10–20% uplift in annual email‑driven revenue without expanding its subscriber base, purely through smarter segmentation, timing, and creative optimisation.
 
 ---
 
-**Questions or feedback?** Feel free to reach out via LinkedIn or open an issue on GitHub.
-
-
----
-
-*This executive summary demonstrates data analysis, business intelligence, and strategic thinking capabilities applicable to Marketing Analytics, CRM Analytics, and Email Marketing Optimisation roles.*
+*For a detailed breakdown of methodology, queries, and calculations, see `documentation/project_methodology.md` and `sql/campaign_analysis_queries.sql`.*  
