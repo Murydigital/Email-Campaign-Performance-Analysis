@@ -1,169 +1,110 @@
-# 📋 Executive Summary — Email Campaign Performance Analysis
+📋 Executive Summary — Email Campaign Performance Analysis
+Period: May – December 2025
+Campaigns Analysed: 20
+Total Emails Sent: 947,000
+Total Revenue: £1,142,300
 
-**Period:** May – December 2025  
-**Campaigns Analysed:** 20  
-**Total Emails Sent:** 947,000  
-**Total Revenue:** £1,142,300  
-
----
-
-## 1. Overview
-
+1. Overview
 This analysis evaluates 20 email marketing campaigns executed between May and December 2025 for a retail brand. The campaigns targeted five audience segments using seven subject line strategies and generated £1,142,300 in total revenue from 947,000 emails sent.
 
 The goal of this project is to demonstrate a full analytics pipeline—Excel, MySQL, Python, and Tableau—and to surface actionable insights to improve future email campaign performance.
 
----
-
-## 2. Overall Performance
-
-| KPI | Value | Comment |
-|---|---|---|
-| Total Revenue | **£1,142,300** | Across all 20 campaigns |
-| Total Emails Sent | **947,000** | May–Dec 2025 |
-| Average Open Rate | **31%** | Above typical industry benchmarks (~21–25%) |
-| Average CTR | **24%** | Strong click‑through across all segments |
-| Average Conversion Rate | **9%** | Healthy end‑to‑end performance |
-| Revenue Per Email | **£1.17** | Across all campaigns and segments |
-| Best Revenue Per Email | **£2.59** | VIP Customers segment |
-
+2. Overall Performance
+KPI	Value	Comment
+Total Revenue	£1,142,300	Across all 20 campaigns
+Total Emails Sent	947,000	May–Dec 2025
+Average Open Rate	31%	Above typical industry benchmarks (~21–25%)
+Average CTR	24%	Strong click‑through across all segments
+Average Conversion Rate	9%	Healthy end‑to‑end performance
+Revenue Per Email	£1.17	Across all campaigns and segments
+Best Revenue Per Email	£2.59	VIP Customers segment
 Overall, the email programme is performing strongly, with engagement and conversion levels that would be considered high in most retail contexts.
 
----
+3. Top Performing Campaigns
+Rank	Campaign	Date	Segment	Subject Line Type	Revenue	Open Rate	CTR	Conversion Rate
+1	Black Friday	2025‑11‑25	All Subscribers	Discount Offer	£144,400	35%	25%	11%
+2	Cyber Monday	2025‑12‑02	All Subscribers	Discount Offer	£138,600	35%	25%	11%
+3	Black Friday Preview	2025‑11‑11	All Subscribers	Urgency	£122,600	35%	25%	10%
+4	Halloween Sale	2025‑10‑28	All Subscribers	Discount Offer	£93,000	30%	25%	10%
+5	Year End Sale	2025‑12‑30	Engaged Customers	Discount Offer	£91,400	35%	25%	9%
+Lowest performing campaign: Product Newsletter (Dec‑2025, Educational, New Subscribers) with £9,400 revenue, lower volume, and mid‑tier engagement.
 
-## 3. Top Performing Campaigns
+Key takeaway: A small set of high‑impact promotional events (Black Friday, Cyber Monday, Halloween, Year-End Sale) account for a disproportionate share of revenue and should be treated as “hero” campaigns in future planning.
 
-| Rank | Campaign | Date | Segment | Subject Line Type | Revenue | Open Rate | CTR | Conversion Rate |
-|---|---|---|---|---|---|---|---|---|
-| 1 | Black Friday | 2025‑11‑25 | All Subscribers | Discount Offer | **£144,400** | 35% | 25% | 11% |
-| 2 | Cyber Monday | 2025‑12‑02 | All Subscribers | Discount Offer | **£138,600** | 35% | 25% | 11% |
-| 3 | Black Friday Preview | 2025‑11‑11 | All Subscribers | Urgency | **£122,600** | 35% | 25% | 10% |
-| 4 | Halloween Sale | 2025‑10‑28 | All Subscribers | Discount Offer | **£93,000** | 30% | 25% | 10% |
-| 5 | Year End Sale | 2025‑12‑30 | Engaged Customers | Discount Offer | **£91,400** | 35% | 25% | 9% |
+4. Monthly Revenue Trends
+Month	Campaigns	Emails Sent	Revenue	Share of Total
+May‑2025	1	45,000	£33,800	3%
+Aug‑2025	2	45,000	£52,500	5%
+Sep‑2025	5	195,000	£153,000	13%
+Oct‑2025	4	203,000	£231,400	20%
+Nov‑2025	3	189,000	£267,000	23%
+Dec‑2025	5	270,000	£383,000	34%
+Total	20	947,000	£1,142,300	100%
+Q4 (Oct–Dec) generates £881,400 (77% of total revenue) from 12 campaigns.
+December is the single biggest month at £383,000, driven by Cyber Monday, Holiday Gift Guide, Last Minute Gifts, and Year-End Sale.
+May–August contribute just 8% of total revenue, indicating under‑utilised opportunities in the first half of the period.
+Implication: The programme is heavily weighted towards peak retail periods. There is a clear upside to building a stronger H1 calendar while protecting Q4 performance.
 
-**Lowest performing campaign:** Product Newsletter (Dec‑2025, Educational, New Subscribers) with **£9,400 revenue**, lower volume, and mid‑tier engagement.
+5. Segment Performance
+Segment	Campaigns	Emails Sent	Revenue	Open Rate	CTR	Conversion Rate	Revenue / Email
+VIP Customers	2	33,000	£84,400	36%	30%	12%	£2.59
+Engaged Customers	8	343,000	£334,800	33%	23%	8%	£0.98
+All Subscribers	7	623,000	£689,200	31%	24%	10%	£1.11
+New Subscribers	2	80,000	£24,100	30%	20%	7%	£0.49
+Inactive	1	28,000	£9,800	20%	20%	7%	£0.28
+Insights:
 
-**Key takeaway:** A small set of high‑impact promotional events (Black Friday, Cyber Monday, Halloween, Year-End Sale) account for a disproportionate share of revenue and should be treated as “hero” campaigns in future planning.
+VIP Customers are the most valuable segment with 3.4× higher revenue per email than Inactive subscribers and more than 2× the overall average.
+All Subscribers generates the largest share of total revenue (£689,200) due to high volume Q4 sends.
+Inactive and New Subscribers segments lag significantly on both engagement and revenue efficiency, indicating a need for more tailored journeys or re‑allocation of volume.
+6. Subject Line Strategy Performance
+Subject Line Type	Campaigns	Revenue	Open Rate	CTR	Conversion Rate
+Discount Offer	6	£529,200	32%	25%	10%
+Urgency	4	£303,000	31%	26%	10%
+Educational	5	£126,200	33%	20%	7%
+Product Announcement	2	£112,800	28%	23%	8%
+Exclusive Offer	1	£46,600	36%	30%	12%
+Welcome	1	£14,700	35%	20%	7%
+Win‑back	1	£9,800	20%	20%	7%
+Insights:
 
----
-
-## 4. Monthly Revenue Trends
-
-| Month | Campaigns | Emails Sent | Revenue | Share of Total |
-|---|---|---|---|---|
-| May‑2025 | 1 | 45,000 | £33,800 | 3% |
-| Aug‑2025 | 2 | 45,000 | £52,500 | 5% |
-| Sep‑2025 | 5 | 195,000 | £153,000 | 13% |
-| Oct‑2025 | 4 | 203,000 | £231,400 | 20% |
-| Nov‑2025 | 3 | 189,000 | £267,000 | 23% |
-| Dec‑2025 | 5 | 270,000 | £383,000 | 34% |
-| **Total** | **20** | **947,000** | **£1,142,300** | **100%** |
-
-- **Q4 (Oct–Dec)** generates **£881,400 (77% of total revenue)** from 12 campaigns.  
-- **December** is the single biggest month at **£383,000**, driven by Cyber Monday, Holiday Gift Guide, Last Minute Gifts, and Year-End Sale.  
-- **May–August** contribute just **8%** of total revenue, indicating under‑utilised opportunities in the first half of the period.
-
-**Implication:** The programme is heavily weighted towards peak retail periods. There is a clear upside to building a stronger H1 calendar while protecting Q4 performance.
-
----
-
-## 5. Segment Performance
-
-| Segment | Campaigns | Emails Sent | Revenue | Open Rate | CTR | Conversion Rate | Revenue / Email |
-|---|---|---|---|---|---|---|---|
-| VIP Customers | 2 | 33,000 | £84,400 | **36%** | 30% | 12% | **£2.59** |
-| Engaged Customers | 8 | 343,000 | £334,800 | 33% | 23% | 8% | £0.98 |
-| All Subscribers | 7 | 623,000 | £689,200 | 31% | 24% | 10% | £1.11 |
-| New Subscribers | 2 | 80,000 | £24,100 | 30% | 20% | 7% | £0.49 |
-| Inactive | 1 | 28,000 | £9,800 | 20% | 20% | 7% | £0.28 |
-
-**Insights:**
-
-- **VIP Customers** are the most valuable segment with **3.4× higher revenue per email** than Inactive subscribers and more than **2×** the overall average.
-- **All Subscribers** generates the **largest share of total revenue (£689,200)** due to high volume Q4 sends.
-- **Inactive** and **New Subscribers** segments lag significantly on both engagement and revenue efficiency, indicating a need for more tailored journeys or re‑allocation of volume.
-
----
-
-## 6. Subject Line Strategy Performance
-
-| Subject Line Type | Campaigns | Revenue | Open Rate | CTR | Conversion Rate |
-|---|---|---|---|---|---|
-| Discount Offer | 6 | **£529,200** | 32% | 25% | 10% |
-| Urgency | 4 | **£303,000** | 31% | **26%** | 10% |
-| Educational | 5 | £126,200 | 33% | 20% | 7% |
-| Product Announcement | 2 | £112,800 | 28% | 23% | 8% |
-| Exclusive Offer | 1 | £46,600 | **36%** | 30% | **12%** |
-| Welcome | 1 | £14,700 | 35% | 20% | 7% |
-| Win‑back | 1 | £9,800 | 20% | 20% | 7% |
-
-**Insights:**
-
-- **Discount Offer** subject lines drive the most revenue (**£529,200**, 46% of total), confirming the power of clear monetary value propositions.
-- **Urgency** subject lines produce the highest **click‑through rate (26%)**, suggesting strong effectiveness at driving traffic when time pressure is emphasised.
-- The **Exclusive Offer** campaign (VIP only) records the **highest open rate (36%) and conversion rate (12%)**, reinforcing the value of exclusivity for high‑value segments.
-- **Win‑back** underperforms across all metrics and needs re‑design if it is to justify continued send volume.
-
----
-
-## 7. Strategic Recommendations
-
-### 7.1 Expand VIP Programme
-
-- **Why:** VIP Customers deliver £2.59 per email, far above the overall average (£1.17).  
-- **Action:** Increase VIP‑focused campaigns from **2 to 4–6 per year**, combining Exclusive Offer + Discount Offer subject lines.  
-- **Impact:** A conservative 25–40% lift in VIP volume at current efficiency could drive **£50,000–£80,000 additional annual revenue**.
-
----
-
-### 7.2 Build Pre‑Q4 Engagement Runway
-
-- **Why:** May–August campaigns currently account for only 8% of revenue. Audience engagement before Q4 can be strengthened.  
-- **Action:** Add **2–3 additional campaigns** in June and July focused on Educational and Product Announcement content to warm segments ahead of peak season.  
-- **Impact:** Even modest performance at current benchmarks could add **10–15%** to annual revenue while improving Q4 responsiveness.
-
----
-
-### 7.3 Replicate the Black Friday Sequence
-
-- **Why:** The **Black Friday Preview → Black Friday → Cyber Monday** sequence generated **£405,600 (35% of all revenue)** from just 3 campaigns.  
-- **Action:** Treat this as a repeatable playbook—build similar **Preview + Main + Follow‑up** flows for other major sales such as Summer Sale, Halloween, and Year-End Sale.  
-- **Impact:** Applying the same structure to two additional events could deliver significant incremental revenue without increasing list size.
-
----
-
-### 7.4 Optimise Subject Line Strategy
-
-- **Why:** Discount Offer and Urgency consistently outperform other types on revenue and CTR.  
-- **Action:**  
-  - Prioritise **Discount Offer** as the default for revenue‑driving campaigns.  
-  - Layer in **Urgency** wording (e.g. “Ends tonight”, “24 hours only”) to maximise clicks.  
-  - Use A/B tests comparing **Discount vs Discount+Urgency** to quantify uplift.  
-- **Impact:** Even small CTR and conversion uplifts on large All Subscribers sends can translate into **tens of thousands of pounds**.
-
----
-
-### 7.5 Re‑Design Win‑Back Strategy
-
-- **Why:** The Re‑engagement (Win‑back) campaign to Inactive subscribers generated only **£9,800** with a **20% open rate**.  
-- **Action:**  
-  - Test multi‑step journeys (e.g. 3‑email series) with stronger offers and clearer value.  
-  - Tighten targeting to “recently inactive” rather than long‑dormant contacts.  
-  - Set clear ROI thresholds; if not met, reduce send volume to Inactive and re‑invest in higher‑performing segments.  
-
----
-
-## 8. Conclusion
-
+Discount Offer subject lines drive the most revenue (£529,200, 46% of total), confirming the power of clear monetary value propositions.
+Urgency subject lines produce the highest click‑through rate (26%), suggesting strong effectiveness at driving traffic when time pressure is emphasised.
+The Exclusive Offer campaign (VIP only) records the highest open rate (36%) and conversion rate (12%), reinforcing the value of exclusivity for high‑value segments.
+Win‑back underperforms across all metrics and needs re‑design if it is to justify continued send volume.
+7. Strategic Recommendations
+7.1 Expand VIP Programme
+Why: VIP Customers deliver £2.59 per email, far above the overall average (£1.17).
+Action: Increase VIP‑focused campaigns from 2 to 4–6 per year, combining Exclusive Offer + Discount Offer subject lines.
+Impact: A conservative 25–40% lift in VIP volume at current efficiency could drive £50,000–£80,000 additional annual revenue.
+7.2 Build Pre‑Q4 Engagement Runway
+Why: May–August campaigns currently account for only 8% of revenue. Audience engagement before Q4 can be strengthened.
+Action: Add 2–3 additional campaigns in June and July focused on Educational and Product Announcement content to warm segments ahead of peak season.
+Impact: Even modest performance at current benchmarks could add 10–15% to annual revenue while improving Q4 responsiveness.
+7.3 Replicate the Black Friday Sequence
+Why: The Black Friday Preview → Black Friday → Cyber Monday sequence generated £405,600 (35% of all revenue) from just 3 campaigns.
+Action: Treat this as a repeatable playbook—build similar Preview + Main + Follow‑up flows for other major sales such as Summer Sale, Halloween, and Year-End Sale.
+Impact: Applying the same structure to two additional events could deliver significant incremental revenue without increasing list size.
+7.4 Optimise Subject Line Strategy
+Why: Discount Offer and Urgency consistently outperform other types on revenue and CTR.
+Action:
+Prioritise Discount Offer as the default for revenue‑driving campaigns.
+Layer in Urgency wording (e.g. “Ends tonight”, “24 hours only”) to maximise clicks.
+Use A/B tests comparing Discount vs Discount+Urgency to quantify uplift.
+Impact: Even small CTR and conversion uplifts on large All Subscribers sends can translate into tens of thousands of pounds.
+7.5 Re‑Design Win‑Back Strategy
+Why: The Re‑engagement (Win‑back) campaign to Inactive subscribers generated only £9,800 with a 20% open rate.
+Action:
+Test multi‑step journeys (e.g. 3‑email series) with stronger offers and clearer value.
+Tighten targeting to “recently inactive” rather than long‑dormant contacts.
+Set clear ROI thresholds; if not met, reduce send volume to Inactive and re‑invest in higher‑performing segments.
+8. Conclusion
 The email programme is already delivering strong results, with high engagement and a clear ability to monetise promotional events—especially during Q4. The largest opportunities now lie in:
 
-- Scaling the **most efficient segment** (VIP Customers)  
-- Extending the **campaign calendar** into under‑used months  
-- Systematically applying the **Black Friday sequence model** to other events  
-- Refining **subject line and win‑back strategies** through iterative testing  
-
+Scaling the most efficient segment (VIP Customers)
+Extending the campaign calendar into under‑used months
+Systematically applying the Black Friday sequence model to other events
+Refining subject line and win‑back strategies through iterative testing
 By implementing these recommendations, the business can realistically target a 10–20% uplift in annual email‑driven revenue without expanding its subscriber base, purely through smarter segmentation, timing, and creative optimisation.
 
----
-
-*For a detailed breakdown of methodology, queries, and calculations, see `documentation/project_methodology.md` and `sql/campaign_analysis_queries.sql`.*  
+For a detailed breakdown of methodology, queries, and calculations, see documentation/project_methodology.md and sql/campaign_analysis_queries.sql.
