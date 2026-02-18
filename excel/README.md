@@ -1,88 +1,106 @@
-# Excel Analysis
 
-This folder contains the complete Excel analysis file with pivot tables and calculated metrics.
+# 📉 Excel Analysis — Email Performance
+
+This folder contains the complete Excel analysis file, serving as the "Source of Truth" for the project. It includes the raw data, calculated KPI columns, and four distinct pivot table analyses.
 
 ## 📁 File
 
-**`email_campaigns_analysis.xlsx`** - Comprehensive analysis workbook
+* **`email_campaigns_analysis.xlsx`** — Comprehensive analysis workbook containing raw data and pivot tables.
+
+---
 
 ## 📊 Workbook Structure
 
 ### Sheet 1: Campaign_Analysis
-- **Purpose:** Main data table with calculated KPI columns
-- **Rows:** 20 campaigns (CAMP_001 to CAMP_020)
-- **Columns:** 20 fields including Campaign_ID, metrics, and calculated KPIs
+
+* **Purpose:** Main data table with calculated KPI columns used for all subsequent analysis.
+* **Rows:** 20 campaigns (CAMP_001 to CAMP_020).
+* **Key Metrics:** 20 fields including Sent, Opens, Clicks, Conversions, and Revenue.
 
 ### Sheet 2: Segment_Analysis (Pivot Table)
-- **Rows:** Segment (5 customer segments)
-- **Values:** Campaign Count, Total Emails Sent, Avg Open Rate, Avg CTR, Avg Conversion Rate, Total Revenue, Avg Revenue Per Email
-- **Sorted By:** Total Revenue (descending)
+
+* **Purpose:** Compares performance across 5 customer segments.
+* **Key Findings:** Identifies **VIP Customers** as the efficiency leader (**£2.59 Revenue Per Email**) and **All Subscribers** as the volume driver (**£689,200 Total Revenue**).
+* **Sorted By:** Total Revenue (Descending).
 
 ### Sheet 3: Subject_Line_Analysis (Pivot Table)
-- **Rows:** Subject_Line_Type (7 types)
-- **Values:** Campaign Count, Avg Open Rate, Avg CTR, Avg Conversion Rate, Total Revenue, Avg Revenue Per Email
-- **Sorted By:** Avg Open Rate (descending)
+
+* **Purpose:** Evaluates the impact of 7 different messaging strategies.
+* **Key Findings:** Shows **Discount Offer** as the top revenue generator (**£529,200**) and **Urgency** as the CTR leader (**26%**).
+* **Sorted By:** Avg Open Rate (Descending).
 
 ### Sheet 4: Monthly_Trends (Pivot Table)
-- **Rows:** Month (9 months: Aug-Dec 2025, Feb 2026)
-- **Values:** Campaigns Sent, Total Emails, Total Revenue, Avg Open Rate, Avg CTR
-- **Sorted By:** Chronological order
+
+* **Purpose:** Tracks performance chronologically from May to December 2025.
+* **Key Findings:** Highlights the massive Q4 surge, peaking in **December** with **£355,000** in revenue.
+* **Sorted By:** Chronological order (Send Date).
+
+---
 
 ## 🔧 How to Use
 
 ### Opening the File
-1. Download `email_campaigns_analysis.xlsx`
-2. Open in Microsoft Excel, Google Sheets, or LibreOffice Calc
-3. Enable editing if prompted
+
+1. Download `email_campaigns_analysis.xlsx`.
+2. Open in Microsoft Excel (recommended), Google Sheets, or LibreOffice Calc.
+3. Enable editing if prompted.
 
 ### Refreshing Pivot Tables
-1. Click on any pivot table
-2. Right-click → **Refresh** (Excel) or **Data** → **Refresh** (Google Sheets)
-3. Pivot tables will update if source data changes
+
+If you modify the raw data in the *Campaign_Analysis* sheet:
+
+* **Excel:** Click on any pivot table, right-click, and select **Refresh**.
+* **Google Sheets:** Pivot tables update automatically, or go to **Data → Refresh**.
 
 ### Filtering Data
-- Use pivot table filters to focus on specific segments, months, or campaign types
-- Slicers available for interactive filtering (Excel only)
 
-## 📈 Calculated Columns
-
-The Campaign_Analysis sheet includes these calculated KPIs:
-
-| Column | Formula | Purpose |
-|--------|---------|---------|
-| Open_Rate | `=(Opens / Emails_Sent) * 100` | Percentage of emails opened |
-| CTR | `=(Clicks / Opens) * 100` | Click-through rate from opens |
-| Click_to_Open | `=(Clicks / Emails_Sent) * 100` | Direct click rate from sends |
-| Conversion_Rate | `=(Conversions / Clicks) * 100` | Percentage converting after click |
-| Revenue_Per_Email | `=Revenue / Emails_Sent` | Revenue efficiency metric |
-| Revenue_Per_Conversion | `=Revenue / Conversions` | Average order value |
-| Month | `=TEXT(Send_Date,"MMM-YYYY")` | Month grouping for trends |
-
-## 🎯 Key Visualizations
-
-Each pivot table provides insights:
-- **Segment Analysis:** Which customer groups perform best
-- **Subject Line Analysis:** Which messaging approaches drive engagement
-- **Monthly Trends:** Seasonal patterns and performance over time
-
-## 📋 Data Source
-
-Source data: `/data/campaigns_analysed.csv`
-
-## 🔄 Updating the Analysis
-
-To add new campaigns:
-1. Add rows to Campaign_Analysis sheet
-2. Copy formulas down for calculated columns
-3. Refresh all pivot tables
-4. Verify Grand Totals update correctly
-
-## 💡 Tips
-
-- Use **Cmd+Click** (Mac) or **Ctrl+Click** (Windows) to select multiple filters
-- Double-click pivot table values to see underlying detail
-- Export individual sheets as PDF for reporting
+* Use the built-in filters to drill down into specific segments or months.
+* **Slicers** are available in the Excel version for interactive, one-click filtering by Segment and Subject Line Type.
 
 ---
 
-**For business insights and recommendations, see [`/EXECUTIVE_SUMMARY.md`](/EXECUTIVE_SUMMARY.md)**
+## 🧮 Calculated Columns
+
+The *Campaign_Analysis* sheet utilizes the following formulas to derive performance insights:
+
+| Column | Formula | Purpose |
+| --- | --- | --- |
+| **Open_Rate** | `(Opens / Emails_Sent)` | Percentage of emails opened |
+| **CTR** | `(Clicks / Emails_Sent)` | Click-through rate relative to total sends |
+| **Click_to_Open** | `(Clicks / Opens)` | Measures the effectiveness of internal email content |
+| **Conversion_Rate** | `(Conversions / Clicks)` | Percentage of users converting after a click |
+| **Revenue_Per_Email** | `Revenue / Emails_Sent` | ROI efficiency metric (**Avg: £1.21**) |
+| **Month** | `TEXT(Send_Date,"MMM-YYYY")` | Groups dates for chronological trend analysis |
+
+---
+
+## 🎯 Key Visualisations
+
+Each pivot table in the workbook addresses a specific business question:
+
+* **Segment Analysis:** Which customer groups should we prioritize for high-value offers?
+* **Subject Line Analysis:** Which messaging styles (Urgency vs. Educational) drive the most traffic?
+* **Monthly Trends:** How does our volume and revenue scale during the holiday peak?
+
+---
+
+## 📋 Data Source
+
+* **Source data:** `data/campaigns_analysed.csv`
+* **Project Period:** May – December 2025
+* **Total Records:** 20 Campaigns
+
+---
+
+## 🔄 Updating the Analysis
+
+To add new campaign data:
+
+1. Paste new rows into the **Campaign_Analysis** sheet.
+2. Drag the formulas in the calculated KPI columns down to cover the new rows.
+3. Go to the **Data** tab and select **Refresh All** to update all pivot tables simultaneously.
+4. Verify that the Grand Total revenue matches your new expected total (**£1,142,300** for the original 20 rows).
+
+---
+
+*For detailed strategic recommendations based on this Excel data, please refer to the [EXECUTIVE_SUMMARY.md](https://www.google.com/search?q=../EXECUTIVE_SUMMARY.md).*
