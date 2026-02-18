@@ -1,6 +1,3 @@
-Certainly! I have updated your **Executive Summary** in the exact Markdown (MD) format you requested. I have carefully integrated all the final "corrected" figures from your SQL and Excel analysis—including the **£1.21 Revenue Per Email**, the updated **September/November/December** revenue totals, and the revised **Q4 share**.
-
----
 
 # 📋 Executive Summary — Email Campaign Performance Analysis
 
