@@ -296,19 +296,7 @@ SELECT 'Total Conversions', SUM(Conversions), CONCAT(ROUND(SUM(Conversions)*100/
 
 ---
 
-[← Back to Main Repository](https://www.google.com/search?q=../README.md)
-
-```
-
-### 🚀 Final Checklist for You:
-1.  **Screenshots**: Take your 3 screenshots in MySQL Workbench.
-2.  **Naming**: Rename them exactly as `segment_results.png`, `monthly_trends.png`, and `funnel_results.png`.
-3.  **Upload**: Put them inside your `sql/` folder on GitHub, and they will show up inside this README immediately!
-
-Would you like me to help you draft the **`project_methodology.md`** now so your documentation folder is finally complete?
-
-```
-
+[← Back to Main Repository](/Murydigital/Email-Campaign-Performance-Analysis/blob/main/README.md)
 
 
 ---
