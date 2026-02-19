@@ -157,4 +157,4 @@ By implementing these recommendations, the business can realistically target a *
 
 ---
 
-*For a detailed breakdown of methodology, queries, and calculations, see [Methodology](./documentation/project_methodology.md) and [SQL Queries](../campaign_analysis_queries.sql).*
+*For a detailed breakdown of methodology, queries, and calculations, see [Methodology](./documentation/project_methodology.md) and [SQL Queries](./campaign_analysis_queries.sql).*
