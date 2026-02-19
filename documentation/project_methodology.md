@@ -9,7 +9,7 @@ This folder contains supporting documentation for the **Email Campaign Performan
 
 ### Need to understand data fields?
 
-→ **[`data_dictionary.md`](https://www.google.com/search?q=./data_dictionary.md)**
+→ **[`data_dictionary.md`](./data_dictionary.md)**
 
 * All **20 field definitions** (Columns A–T)
 * Calculated metrics formulas (Open Rate, CTR, RPE, etc.)
@@ -17,7 +17,7 @@ This folder contains supporting documentation for the **Email Campaign Performan
 
 ### Want to know the analysis approach?
 
-→ **[`project_methodology.md`](https://www.google.com/search?q=./project_methodology.md)**
+→ **[`project_methodology.md`](./project_methodology.md)**
 
 * Step-by-step methodology (Salesforce → Excel → MySQL)
 * Tools and techniques used for data sanitisation
@@ -25,7 +25,7 @@ This folder contains supporting documentation for the **Email Campaign Performan
 
 ### Looking for business insights?
 
-→ **[`/EXECUTIVE_SUMMARY.md`](https://www.google.com/search?q=../EXECUTIVE_SUMMARY.md)**
+→ **[`/EXECUTIVE_SUMMARY.md`](../EXECUTIVE_SUMMARY.md)**
 
 * Strategic insights from the **£1,142,300** revenue total
 * Business recommendations for the VIP segment
@@ -36,10 +36,10 @@ This folder contains supporting documentation for the **Email Campaign Performan
 
 → **Folder-specific READMEs:**
 
-* **[`/excel/README.md`](https://www.google.com/search?q=../excel/README.md)** - Excel analysis guide and "Source of Truth" verification
-* **[`/sql/README.md`](https://www.google.com/search?q=../sql/README.md)** - SQL query documentation and MySQL schema details
-* **[`/python/README.md`](https://www.google.com/search?q=../python/README.md)** - Python notebook guide for future statistical analysis
-* **[`/visualisations/README.md`](https://www.google.com/search?q=../visualisations/README.md)** - Tableau/Power BI dashboard guide
+* **[`/excel/README.md`](../excel/README.md)** - Excel analysis guide and "Source of Truth" verification
+* **[`/sql/README.md`](../sql/README.md)** - SQL query documentation and MySQL schema details
+* **[`/python/README.md`](../python/README.md)** - Python notebook guide for future statistical analysis
+* **[`/visualisations/README.md`](../visualisations/README.md)** - Tableau/Power BI dashboard guide
 
 ---
 
