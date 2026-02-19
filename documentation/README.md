@@ -38,13 +38,6 @@ This folder contains the comprehensive framework and technical specifications fo
 | Where is the raw campaign data? | See the [Data Folder](../data/) |
 
 ---
-
-## 🚀 Future Scalability
-The documentation in this folder is designed to support the next phases of this project:
-1.  **Python Analysis:** Utilising Pandas for advanced statistical correlation between segments.
-2.  **Visualisation:** Connecting the MySQL database to **Tableau/Power BI** for real-time performance tracking.
-
----
 [← Back to Main Repository](../README.md)
 
 ```
