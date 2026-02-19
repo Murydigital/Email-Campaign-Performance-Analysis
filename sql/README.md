@@ -158,4 +158,4 @@ FROM campaigns_analysed;
 * **GitHub:** [Murydigital](https://github.com/Murydigital)
 * **LinkedIn:** [Your Profile Link Here]
 
-[← Back to Main Repository](./README.md)
+[← Back to Main Repository](../README.md)
