@@ -1,60 +1,50 @@
-# Documentation
 
-This folder contains supporting documentation for the Email Campaign Performance Analysis project.
+# 📖 Documentation Centre
+
+This folder contains the comprehensive framework and technical specifications for the **Email Campaign Performance Analysis** project. These documents ensure the analysis is reproducible, accurate, and aligned with business logic.
+
+---
 
 ## 📚 Available Documentation
 
 ### 📖 Data Dictionary
-**File:** [`data_dictionary.md`](data_dictionary.md)
-
-**Contents:**
-- Complete field definitions for all 20 data fields
-- Data types and formats
-- Calculated metrics formulas (Open Rate, CTR, Conversion Rate, etc.)
-- Business rules and validation logic
-- Data source information (Salesforce Marketing Cloud)
-
-**Use this when:** 
-- You need to understand what each field means
-- You want to know how metrics are calculated
-- You're validating data accuracy
-- You're creating new analysis queries
-
----
+* **File:** [`data_dictionary.md`](./data_dictionary.md)
+* **Contents:**
+    * Complete field definitions for all **20 data dimensions and metrics**.
+    * Technical data types and formats (aligned with MySQL and Excel).
+    * Standardised formulas for **KPIs** (e.g. Open Rate, CTR, Revenue Per Email).
+    * Business validation logic used to ensure data integrity.
+* **Use this when:** You need to understand the technical structure of the dataset or validate how a specific metric was derived.
 
 ### 🔬 Project Methodology
-**File:** [`project_methodology.md`](project_methodology.md)
-
-**Contents:**
-- Analysis framework and approach
-- Data collection and cleaning process
-- Analytical methods used (Excel, SQL, Python, Tableau)
-- Key findings and insights
-- Strategic business recommendations
-- Limitations and assumptions
-- Future analysis opportunities
-
-**Use this when:** 
-- You want to understand the analytical approach
-- You need context on methodology decisions
-- You're reviewing the strategic insights
-- You want to replicate the analysis
+* **File:** [`project_methodology.md`](./project_methodology.md)
+* **Contents:**
+    * **The Pipeline:** End-to-end workflow from Salesforce Marketing Cloud extraction to final insight.
+    * **Data Cleaning:** Documentation of the "Clean Slate" process (removing currency symbols and fixing data types).
+    * **Technical Stack:** Implementation details for **Excel, MySQL 8.0,** and future **Python/Tableau** integration.
+    * **Strategic Insights:** Summary of the revenue-driving findings discovered during analysis.
+* **Use this when:** You want to understand the analytical approach or replicate the project structure.
 
 ---
 
 ## 🎯 Quick Reference Guide
 
-### Common Questions
-
-| Question | Answer |
-|----------|--------|
-| **What does "CTR" mean?** | See [data_dictionary.md](data_dictionary.md) - Click-Through Rate |
-| **How is Revenue Per Email calculated?** | See [data_dictionary.md](data_dictionary.md) - Formula section |
-| **What analysis tools were used?** | See [project_methodology.md](project_methodology.md) - Tools section |
-| **What are the key findings?** | See [`/EXECUTIVE_SUMMARY.md`](/EXECUTIVE_SUMMARY.md) |
-| **Where's the raw data?** | See [`/data/`](/data/) folder |
+| Common Question | Source of Information |
+| :--- | :--- |
+| How is **CTR** calculated? | See [Data Dictionary](./data_dictionary.md) — *Formula Section* |
+| What is the **Revenue Per Email**? | See [Data Dictionary](./data_dictionary.md) — *Definitions* |
+| How was the data cleaned for SQL? | See [Project Methodology](./project_methodology.md) — *Cleaning Section* |
+| What are the core business findings? | See the [Executive Summary](../README.md) |
+| Where is the raw campaign data? | See the [Data Folder](../data/) |
 
 ---
 
-## 📊 Documentation Structure
+## 🚀 Future Scalability
+The documentation in this folder is designed to support the next phases of this project:
+1.  **Python Analysis:** Utilising Pandas for advanced statistical correlation between segments.
+2.  **Visualisation:** Connecting the MySQL database to **Tableau/Power BI** for real-time performance tracking.
 
+---
+[← Back to Main Repository](../README.md)
+
+```
