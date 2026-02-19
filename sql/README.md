@@ -1,28 +1,36 @@
-🗄️ SQL Analysis — Email Performance
+
+### 📂 Updated sql/README.md
+
+```markdown
+# 🗄️ SQL Analysis — Email Performance
+
 This folder contains the SQL scripts used to build the database, import the cleaned campaign data, and perform a deep-dive analysis of marketing performance.
 
-📄 Files
-campaign_analysis_queries.sql: The master script containing the database setup, table schema, and 10 analytical queries covering performance metrics, segment ROI, and engagement funnels.
+## 📄 Files
+* **`campaign_analysis_queries.sql`**: Complete analysis with 10 queries covering performance metrics, segmentation, and optimization insights.
 
-🗄️ Database Structure
-The database represents a processed export from Salesforce Marketing Cloud, optimized for relational analysis.
+---
 
-Database Name: Portafolio
+## 🗄️ Database Structure
 
-Table Name: campaigns_analysed
+The database represents a processed export from **Salesforce Marketing Cloud**, optimized for relational analysis.
 
-Records: 20 campaigns
+* **Database Name:** `Portafolio`
+* **Table Name:** `campaigns_analysed`
+* **Records:** 20 campaigns
+* **Period:** May – December 2025
+* **Total Emails Sent:** 947,000
+* **Total Revenue:** £1,142,300
 
-Period: May – December 2025
 
-Total Emails Sent: 947,000
 
-Total Revenue: £1,142,300
+---
 
-🛠️ Table Schema
-The following schema was designed to handle high-precision financial data and flexible engagement rates (converted from percentages to decimals) to ensure mathematical accuracy during analysis.
+## 🛠️ Table Schema
 
-SQL
+The following schema was designed using flexible `FLOAT` and `DECIMAL` types to ensure mathematical accuracy and prevent data import errors.
+
+```sql
 CREATE TABLE campaigns_analysed (
     Campaign_ID VARCHAR(20) PRIMARY KEY,
     Campaign_Name VARCHAR(100),
@@ -45,18 +53,26 @@ CREATE TABLE campaigns_analysed (
     Revenue_Per_Conversion DECIMAL(10,2),
     Month VARCHAR(20)
 );
-🔍 Analytical Coverage
-The campaign_analysis_queries.sql file provides insights into:
 
-Executive KPIs: Total revenue, volume, and count.
+```
 
-Segment ROI: Identifying which customer groups (e.g., VIP) drive the most value.
+---
 
-Messaging Strategy: Comparing subject line types like "Urgency" vs. "Discount."
+## 🔍 Analytical Coverage
 
-Seasonality: Monthly trends showing the Q4 revenue surge.
+The `campaign_analysis_queries.sql` file provides insights into:
 
-Engagement Funnel: Analyzing drop-off rates from Send to Conversion.
+1. **Executive KPIs**: Total revenue, volume, and count.
+2. **Segment ROI**: Identifying which customer groups (e.g., VIP) drive the most value.
+3. **Messaging Strategy**: Comparing subject line types like "Urgency" vs. "Discount".
+4. **Seasonality**: Monthly trends showing the Q4 revenue surge.
+5. **Engagement Funnel**: Analyzing drop-off rates from Send to Conversion.
 
-✅ Verification Note
-The data stored in this database has been cross-verified against the email_campaigns_analysis.xlsx "Source of Truth" file. Total revenue results from Query 1 match the Excel Grand Total of £1,142,300.
+---
+
+### ✅ Verification Note
+
+The data stored in this database has been cross-verified against the **`email_campaigns_analysis.xlsx`** "Source of Truth" file. Total revenue results from Query 1 match the Excel Grand Total of **£1,142,300**.
+
+```
+
