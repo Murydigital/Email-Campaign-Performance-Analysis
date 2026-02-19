@@ -180,8 +180,9 @@ email-campaign-performance-analysis/
 ## 🔗 Connect
 
 * **GitHub**: [github.com/Murydigital](https://github.com/Murydigital)
-* **LinkedIn**: [Connect with me](https://www.google.com/search?q=your-linkedin-link)
-* **Portfolio**: [mury.digital](https://mury.digital)
+* **LinkedIn**: [Connect with me](www.linkedin.com/in/andres-m-r)
+* * **Trailhead**: [Connect with me](https://www.salesforce.com/trailblazer/andresrendon)
+* **Portfolio**: [mury.digital](https://github.com/Murydigital/Email-Campaign-Performance-Analysis)
 
 ---
 
