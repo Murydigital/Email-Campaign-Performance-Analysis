@@ -140,7 +140,7 @@ FROM campaigns_analysed;
 
 #### 📸 MySQL Result Preview
 
-> **💡 Business Insight:** Our funnel health is strong with an **Average Open Rate of 31%**. However, the drop-off between Clicks and Conversions highlights a major opportunity for **Landing Page Optimization** to capture lost revenue.
+> **💡 Business Insight:** Our funnel health is strong with an **Average Open Rate of 31%**. However, the drop-off between Clicks and Conversions highlights a major opportunity for **Landing Page Optimisation** to capture lost revenue.
 
 ---
 
@@ -158,21 +158,4 @@ FROM campaigns_analysed;
 * **GitHub:** [Murydigital](https://github.com/Murydigital)
 * **LinkedIn:** [Your Profile Link Here]
 
-[← Back to Main Repository](https://www.google.com/search?q=../README.md)
-
----
-
-### 🚀 Instructions to make the images work:
-
-1. **Take 3 Screenshots** of your results in MySQL Workbench for the queries above.
-2. **Rename the images** exactly as:
-* `segment_results.png`
-* `monthly_trends.png`
-* `funnel_results.png`
-
-
-3. **Upload** these three images into your `sql/` folder on GitHub.
-4. The code above uses `./filename.png`, which is the **Direct Path** to those images within the same folder.
-5. The link `[← Back to Main Repository](../README.md)` is the correct **Relative Path** to return to your root directory.
-
-Would you like me to help you draft the **`project_methodology.md`** now so that all your project components are fully documented?
+[← Back to Main Repository](./README.md)
