@@ -296,7 +296,7 @@ SELECT 'Total Conversions', SUM(Conversions), CONCAT(ROUND(SUM(Conversions)*100/
 
 ---
 
-[← Back to Main Repository](/Murydigital/Email-Campaign-Performance-Analysis/blob/main/README.md)
+[← Back to Main Repository](/Murydigital/Email-Campaign-Performance-Analysis/sql/README.md)
 
 
 ---
