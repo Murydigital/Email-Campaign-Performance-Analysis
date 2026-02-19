@@ -61,7 +61,7 @@ If you modify the raw data in the *Campaign_Analysis* sheet:
 
 ## 🧮 Calculated Columns
 
-The *Campaign_Analysis* sheet utilizes the following formulas to derive performance insights:
+The *Campaign_Analysis* sheet utilises the following formulas to derive performance insights:
 
 | Column | Formula | Purpose |
 | --- | --- | --- |
@@ -78,7 +78,7 @@ The *Campaign_Analysis* sheet utilizes the following formulas to derive performa
 
 Each pivot table in the workbook addresses a specific business question:
 
-* **Segment Analysis:** Which customer groups should we prioritize for high-value offers?
+* **Segment Analysis:** Which customer groups should we prioritise for high-value offers?
 * **Subject Line Analysis:** Which messaging styles (Urgency vs. Educational) drive the most traffic?
 * **Monthly Trends:** How does our volume and revenue scale during the holiday peak?
 
@@ -103,4 +103,4 @@ To add new campaign data:
 
 ---
 
-*For detailed strategic recommendations based on this Excel data, please refer to the [EXECUTIVE_SUMMARY.md](https://www.google.com/search?q=../EXECUTIVE_SUMMARY.md).*
+*For detailed strategic recommendations based on this Excel data, please refer to the [EXECUTIVE_SUMMARY.md](../EXECUTIVE_SUMMARY.md).*
