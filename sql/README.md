@@ -72,6 +72,7 @@ ORDER BY Total_Revenue DESC;
 ```
 
 #### 📸 MySQL Result Preview
+![Text](./segment_results.png)
 
 > **💡 Business Insight:** While "All Subscribers" drives the highest volume, the **VIP Segment** is significantly more efficient. Generating **£2.56 per email**, VIPs are **2.1x more profitable** than the average subscriber.
 
