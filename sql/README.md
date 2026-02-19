@@ -1,27 +1,32 @@
-# SQL Analysis
+🗄️ SQL Analysis — Email Performance
+This folder contains the SQL scripts used to build the database, import the cleaned campaign data, and perform a deep-dive analysis of marketing performance.
 
-This folder contains SQL queries for analyzing email campaign performance data from Salesforce Marketing Cloud.
+📄 Files
+campaign_analysis_queries.sql: The master script containing the database setup, table schema, and 10 analytical queries covering performance metrics, segment ROI, and engagement funnels.
 
-## 📄 Files
+🗄️ Database Structure
+The database represents a processed export from Salesforce Marketing Cloud, optimized for relational analysis.
 
-- **`campaign_analysis_queries.sql`** - Complete analysis with 10 queries covering performance metrics, segmentation, and optimization insights
+Database Name: Portafolio
 
-## 🗄️ Database Structure
+Table Name: campaigns_analysed
 
-**Database:** `email_campaigns`  
-**Table:** `campaigns_analysed`  
-**Records:** 20 campaigns  
-**Period:** February - December 2025  
-**Total Emails Sent:** 947,000  
-**Total Revenue:** £1,142,300
+Records: 20 campaigns
 
-### Table Schema
+Period: May – December 2025
 
-```sql
+Total Emails Sent: 947,000
+
+Total Revenue: £1,142,300
+
+🛠️ Table Schema
+The following schema was designed to handle high-precision financial data and flexible engagement rates (converted from percentages to decimals) to ensure mathematical accuracy during analysis.
+
+SQL
 CREATE TABLE campaigns_analysed (
-    Campaign_ID VARCHAR(20),
+    Campaign_ID VARCHAR(20) PRIMARY KEY,
     Campaign_Name VARCHAR(100),
-    Send_Date VARCHAR(20),
+    Send_Date DATE,
     Day_of_Week VARCHAR(20),
     Segment VARCHAR(50),
     Subject_Line_Type VARCHAR(50),
@@ -31,12 +36,27 @@ CREATE TABLE campaigns_analysed (
     Bounces INT,
     Unsubscribes INT,
     Conversions INT,
-    Revenue DECIMAL(10,2),
-    Open_Rate DECIMAL(10,2),
-    CTR DECIMAL(10,2),
-    Click_to_Open DECIMAL(10,2),
-    Conversion_Rate DECIMAL(10,2),
+    Revenue DECIMAL(15,2),
+    Open_Rate FLOAT, 
+    CTR FLOAT,
+    Click_to_Open FLOAT,
+    Conversion_Rate FLOAT,
     Revenue_Per_Email DECIMAL(10,2),
     Revenue_Per_Conversion DECIMAL(10,2),
     Month VARCHAR(20)
 );
+🔍 Analytical Coverage
+The campaign_analysis_queries.sql file provides insights into:
+
+Executive KPIs: Total revenue, volume, and count.
+
+Segment ROI: Identifying which customer groups (e.g., VIP) drive the most value.
+
+Messaging Strategy: Comparing subject line types like "Urgency" vs. "Discount."
+
+Seasonality: Monthly trends showing the Q4 revenue surge.
+
+Engagement Funnel: Analyzing drop-off rates from Send to Conversion.
+
+✅ Verification Note
+The data stored in this database has been cross-verified against the email_campaigns_analysis.xlsx "Source of Truth" file. Total revenue results from Query 1 match the Excel Grand Total of £1,142,300.
