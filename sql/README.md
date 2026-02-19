@@ -103,6 +103,7 @@ ORDER BY
 ```
 
 #### 📸 MySQL Result Preview
+![Monthly Trends Results](./monthly_trends.png)
 
 > **💡 Business Insight:** The analysis reveals a massive Q4 surge. **December is the "Golden Month,"** generating **£383,000** in revenue. This peak was driven by "Last Minute Gift" urgency campaigns, indicating that marketing spend should be heavily weighted toward the end of the year.
 
@@ -140,6 +141,7 @@ FROM campaigns_analysed;
 ```
 
 #### 📸 MySQL Result Preview
+![Funnel Results](./funnel_results.png)
 
 > **💡 Business Insight:** Our funnel health is strong with an **Average Open Rate of 31%**. However, the drop-off between Clicks and Conversions highlights a major opportunity for **Landing Page Optimisation** to capture lost revenue.
 
@@ -157,6 +159,6 @@ FROM campaigns_analysed;
 ## 📬 Contact & Navigation
 
 * **GitHub:** [Murydigital](https://github.com/Murydigital)
-* **LinkedIn:** [Your Profile Link Here]
+* **LinkedIn:** [www.linkedin.com/in/andres-m-r]
 
 [← Back to Main Repository](../README.md)
