@@ -31,9 +31,9 @@ This folder contains the comprehensive framework and technical specifications fo
 
 | Common Question | Source of Information |
 | :--- | :--- |
-| How is **CTR** calculated? | See [Data Dictionary](./data_dictionary.md) — *Formula Section* |
-| What is the **Revenue Per Email**? | See [Data Dictionary](./data_dictionary.md) — *Definitions* |
-| How was the data cleaned for SQL? | See [Project Methodology](./project_methodology.md) — *Cleaning Section* |
+| How is **CTR** calculated? | See [Data Dictionary](./data_dictionary.md) 
+| What is the **Revenue Per Email**? | See [Data Dictionary](./data_dictionary.md) 
+| How was the data cleaned for SQL? | See [Project Methodology](./project_methodology.md) 
 | What are the core business findings? | See the [Executive Summary](../README.md) |
 | Where is the raw campaign data? | See the [Data Folder](../data/) |
 
